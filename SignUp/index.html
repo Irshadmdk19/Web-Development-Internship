@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username"><span> <i class="fa-solid fa-user"></i></span> Username</label>
+               <input id="username" name="username" type="text">
+            
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email"> <span> <i class="fa-solid fa-envelope"></i></span> Email</label>
+            
+                <input id="email" name="email" type="text">
+                
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password"> <i class="fa-solid fa-lock"></i> Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2"><span> <i class="fa-solid fa-lock"></i></span> Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit" id="myButton">Sign Up</button>
+        </form>
+    </div>
+    
+
+    <script src="https://kit.fontawesome.com/74fd908593.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
